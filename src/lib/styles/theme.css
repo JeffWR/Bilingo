@@ -1,0 +1,73 @@
+/* ═══════════════════════════════════════════════
+   BILINGO — THEME TOKENS
+   Edit values here to change the entire site.
+   ═══════════════════════════════════════════════ */
+
+:root {
+
+  /* ── Backgrounds ──────────────────────────── */
+  --bg-nav:         #1e1614;
+  --bg-hero-start:  #2d2422;
+  --bg-hero-mid:    #4a3728;
+  --bg-hero-end:    #6b4c3b;
+  --bg-page:        #faf7f2;
+  --bg-card:        #ffffff;
+  --bg-footer:      #2d2422;
+
+  /* ── Cream (text / UI on dark backgrounds) ── */
+  --cream:          #fdebd0;
+  --cream-75:       rgba(253, 235, 208, 0.75);
+  --cream-70:       rgba(253, 235, 208, 0.70);
+  --cream-65:       rgba(253, 235, 208, 0.65);
+  --cream-60:       rgba(253, 235, 208, 0.60);
+  --cream-45:       rgba(253, 235, 208, 0.45);
+  --cream-40:       rgba(253, 235, 208, 0.40);
+  --cream-30:       rgba(253, 235, 208, 0.30);
+  --cream-25:       rgba(253, 235, 208, 0.25);
+  --cream-20:       rgba(253, 235, 208, 0.20);
+  --cream-14:       rgba(253, 235, 208, 0.14);
+  --cream-08:       rgba(253, 235, 208, 0.08);
+  --cream-07:       rgba(253, 235, 208, 0.07);
+  --cream-06:       rgba(253, 235, 208, 0.06);
+
+  /* ── Text (on light backgrounds) ─────────── */
+  --text:           #2d2422;
+  --text-secondary: #8b7d72;
+  --text-muted:     #b8aba5;
+  --text-dim:       #c4b8b2;
+
+  /* ── Borders ──────────────────────────────── */
+  --border:         #ede3d8;
+  --border-ph:      #e0d8d0;
+
+  /* ── Accent ───────────────────────────────── */
+  --accent:         #58cc02;
+  --accent-dark:    #3f9b02;
+
+  /* ── Status ───────────────────────────────── */
+  --correct:        #58cc02;
+  --correct-bg:     #f0fce7;
+  --correct-text:   #2d7a00;
+  --incorrect:      #ff4b4b;
+  --incorrect-dark: #c23c3c;
+  --incorrect-bg:   #fff0f0;
+  --incorrect-text: #b20000;
+  --info:           #1cb0f6;
+  --info-bg:        #e8f6fe;
+  --info-light:     #f0f9ff;
+  --info-text:      #0a7abf;
+
+  /* ── Typography ───────────────────────────── */
+  --font:           'Nunito', sans-serif;
+
+  /* ── Layout ───────────────────────────────── */
+  --nav-height:     68px;
+
+  /* ── Radius ───────────────────────────────── */
+  --radius-card:    16px;
+  --radius-btn:     12px;
+  --radius-chip:    12px;
+  --radius-sm:      6px;
+  --radius-pill:    999px;
+
+}
