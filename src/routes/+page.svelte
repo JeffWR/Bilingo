@@ -88,7 +88,7 @@
 	.hero-btn {
 		display: inline-block;
 		background: var(--cream);
-		color: var(--text);
+		color: var(--text-on-cream);
 		padding: 16px 48px;
 		border-radius: var(--radius-btn);
 		font-size: 1.05rem;

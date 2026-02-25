@@ -29,7 +29,7 @@
 		background: var(--bg-card);
 		border-radius: var(--radius-card);
 		padding: 28px 24px 24px;
-		box-shadow: 0 2px 16px rgba(45, 36, 34, 0.08);
+		box-shadow: var(--shadow-card);
 		border: 1.5px solid var(--border);
 	}
 
