@@ -6,19 +6,27 @@
 	let {
 		variant = 'primary',
 		disabled = false,
+		href,
 		onclick,
 		children
 	}: {
 		variant?: Variant;
 		disabled?: boolean;
+		href?: string;
 		onclick?: () => void;
 		children: Snippet;
 	} = $props();
 </script>
 
-<button class="btn btn--{variant}" {disabled} {onclick}>
-	{@render children()}
-</button>
+{#if href}
+	<a {href} class="btn btn--{variant}">
+		{@render children()}
+	</a>
+{:else}
+	<button class="btn btn--{variant}" {disabled} {onclick}>
+		{@render children()}
+	</button>
+{/if}
 
 <style>
 	.btn {
@@ -38,13 +46,13 @@
 		font-family: inherit;
 	}
 
-	.btn:hover:not(:disabled) {
-		filter: brightness(1.06);
-	}
-
 	.btn:active:not(:disabled) {
 		transform: translateY(3px);
-		box-shadow: none !important;
+	}
+
+	a.btn {
+		display: inline-block;
+		width: auto;
 	}
 
 	.btn:disabled {
