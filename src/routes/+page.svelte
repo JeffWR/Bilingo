@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Footer from '$lib/components/Footer.svelte';
+	import Button from '$lib/components/Button.svelte';
 </script>
 
 <section class="hero">
@@ -13,7 +14,7 @@
 			"If we cannot speak negatively to our younger selves, why do we continue to direct negative
 			language toward ourselves now?"
 		</blockquote>
-		<a href="/conversation" class="hero-btn">Begin →</a>
+		<Button href="/conversation">Begin →</Button>
 	</div>
 </section>
 
@@ -85,29 +86,5 @@
 		line-height: 1.6;
 	}
 
-	.hero-btn {
-		display: inline-block;
-		background: var(--cream);
-		color: var(--text-on-cream);
-		padding: 16px 48px;
-		border-radius: var(--radius-btn);
-		font-size: 1.05rem;
-		font-weight: 900;
-		text-transform: uppercase;
-		letter-spacing: 0.8px;
-		box-shadow: 0 5px 0 var(--cream-30);
-		transition:
-			transform 0.1s ease,
-			box-shadow 0.1s ease;
-	}
 
-	.hero-btn:hover {
-		transform: translateY(-2px);
-		box-shadow: 0 7px 0 var(--cream-30);
-	}
-
-	.hero-btn:active {
-		transform: translateY(3px);
-		box-shadow: 0 2px 0 var(--cream-30);
-	}
 </style>
